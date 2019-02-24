@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 nav{
 	border-bottom: 1px solid lightgray;
 	box-shadow: 0px 1px gray;
@@ -80,3 +81,8 @@ a{
 @media (max-width: 800px) and (orientation: portrait){
 
 }
+=======
+body {
+    display: flex;
+}
+>>>>>>> 07adc0455ff2fe1d9808846629f860aab9b2c084

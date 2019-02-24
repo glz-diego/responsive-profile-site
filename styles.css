@@ -76,9 +76,15 @@ a{
 	align-content: center;
 	flex-wrap: wrap;
 }
-@media (max-width: 800px) and (orientation: portrait){
-
-}
+@media (max-width: 600px) {
+  body {
+	background-image: url(formal.jpg);
+	}
+  }
 body {
-    display: flex;
+	display: flex;
+	background-image: url(formal.jpg);
+	background-size: 70%;
+	background-repeat: no-repeat;
+
 }

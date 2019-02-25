@@ -77,6 +77,13 @@ a{
 	flex-wrap: wrap;
 }
 @media (max-width: 600px) {
+	<nav style="position: fixed;left: 0;top: 0;font-family: saxony_serial-regular;z-index: 4;display: flex;flex-wrap: wrap;justify-content: space-between;border-bottom: 1px solid gray;background: white;align-content: center;width: 99%;">
+		<div class="n-item"><font style="font-weight: bold;"><a href="https://about.me/">about.me</a></font></div>
+		<div class="n-item1">
+		<div class="n-item"><font style="font-weight: bold;"><a href="https://about.me/welcome">Get started for free</a></font></div>
+		<div class="n-item"><a href="https://about.me/login">Log In</a></div>
+		</div>
+	</nav>
   body {
 	background-image: url(formal.jpg);
 	}
@@ -86,5 +93,5 @@ body {
 	background-image: url(formal.jpg);
 	background-size: 70%;
 	background-repeat: no-repeat;
-
+	width: 70%;
 }

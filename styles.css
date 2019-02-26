@@ -84,9 +84,8 @@ a{
 	z-index: 2;
 	align-items: stretch;
 }
-@media screen and (max-width: 600px) {
+@media (min-width: 10px) and (max-width: 600px) {
 	body {
-	  	background-color: lightgreen;
 		display: block;
 		background-image: url(formal.jpg);
 		background-repeat: no-repeat;
@@ -97,12 +96,20 @@ a{
 		display: none;
 	}
 	.child{
-		display: inline-block;
-		position: static;
+		display: block;
+		position: relative;
+		top: -10%;
+		background-color: transparent;
+	}
+	.n-item2{
+		display: none;
+	}
+	.body{
+		display: block;
 	}
   }
 n-item2 {
-
+	display: block;
 }
 body {
 	display: flex;

@@ -30,11 +30,11 @@ a{
 }
 .img{
 	z-index: 1;
-	display: flex;
 	position: relative;
 	top: 50px;
 	left: -8px;
-	max-width: 1270px;
+	width: 70%;
+	height: 102%;
 }
 #footer{
 	display: flex;
@@ -75,20 +75,30 @@ a{
 	justify-content: center;
 	align-content: center;
 	flex-wrap: wrap;
+	padding-top: 0%;
+	height: 100%;
+	display: flex;
+	width: 32%;
+	flex-shrink: 2;
+	background-color: white;
+	z-index: 2;
+	align-items: stretch;
 }
-@media (max-width: 600px) {
-	nav {
-
+@media screen and (max-width: 600px) {
+	body {
+	  	background-color: lightgreen;
+		display: block;
+		background-image: url(formal.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
 	}
-	/*<nav style="position: fixed;left: 0;top: 0;font-family: saxony_serial-regular;z-index: 4;display: flex;flex-wrap: wrap;justify-content: space-between;border-bottom: 1px solid gray;background: white;align-content: center;width: 99%;">
-		<div class="n-item"><font style="font-weight: bold;"><a href="https://about.me/">about.me</a></font></div>
-		<div class="n-item1">
-		<div class="n-item"><font style="font-weight: bold;"><a href="https://about.me/welcome">Get started for free</a></font></div>
-		<div class="n-item"><a href="https://about.me/login">Log In</a></div>
-		</div>*/
-	</nav>
-  body {
-	background-color: green;
+	.img{
+		display: none;
+	}
+	.child{
+		display: inline-block;
+		position: static;
 	}
   }
 n-item2 {
@@ -96,8 +106,11 @@ n-item2 {
 }
 body {
 	display: flex;
-	background-image: url(formal.jpg);
-	background-size: 70%;
-	background-repeat: no-repeat;
-	width: 70%;
+	align-content: space-between;
+}
+h2{
+	font-size: 22px;
+}
+h3{
+	font-size: 16px;
 }

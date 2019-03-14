@@ -87,33 +87,30 @@ a{
 @media (min-width: 10px) and (max-width: 600px) {
 	body {
 		display: block;
-		background-image: url(formal.jpg);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
 	}
 	.img{
-		display: none;
+		width: 100%
 	}
 	.child{
 		display: block;
 		position: relative;
 		top: -10%;
 		background-color: transparent;
+		width: 100%;
 	}
 	.n-item2{
 		display: none;
 	}
 	.body{
+	}
+	n-item2 {
 		display: block;
 	}
-  }
-n-item2 {
-	display: block;
 }
 body {
 	display: flex;
 	align-content: space-between;
+	flex-wrap: wrap;
 }
 h2{
 	font-size: 22px;
